@@ -1,0 +1,81 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\ProgramData\\chocolatey\\lib\\npm\\tools\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '@ionic/cloud-angular',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.9
+3 info using node@v7.10.0
+4 warn package.json weather-taxi@0.0.0 No description
+5 warn package.json weather-taxi@0.0.0 No repository field.
+6 warn package.json weather-taxi@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ '@ionic/cloud-angular', null ]
+9 verbose cache add name=undefined spec="@ionic/cloud-angular" args=["@ionic/cloud-angular",null]
+10 verbose parsed url Url {
+10 verbose parsed url   protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '@ionic/cloud-angular',
+10 verbose parsed url   path: '@ionic/cloud-angular',
+10 verbose parsed url   href: '@ionic/cloud-angular' }
+11 verbose cache add name="" spec="ionic/cloud-angular" args=["","ionic/cloud-angular"]
+12 verbose parsed url Url {
+12 verbose parsed url   protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'ionic/cloud-angular',
+12 verbose parsed url   path: 'ionic/cloud-angular',
+12 verbose parsed url   href: 'ionic/cloud-angular' }
+13 silly lockFile 8ff7985a-ionic-cloud-angular ionic/cloud-angular
+14 verbose lock ionic/cloud-angular C:\Users\neil\AppData\Roaming\npm-cache\8ff7985a-ionic-cloud-angular.lock
+15 info maybeGithub Attempting ionic/cloud-angular from git://github.com/ionic/cloud-angular
+16 silly lockFile 96be2abe-t-github-com-ionic-cloud-angular git://github.com/ionic/cloud-angular
+17 verbose lock git://github.com/ionic/cloud-angular C:\Users\neil\AppData\Roaming\npm-cache\96be2abe-t-github-com-ionic-cloud-angular.lock
+18 verbose addRemoteGit [ 'git://github.com/ionic/cloud-angular', 'master' ]
+19 verbose git clone git://github.com/ionic/cloud-angular Cloning into bare repository 'C:\Users\neil\AppData\Roaming\npm-cache\_git-remotes\git-github-com-ionic-cloud-angular-96be2abe'...
+19 verbose git clone git://github.com/ionic/cloud-angular fatal: remote error:
+19 verbose git clone git://github.com/ionic/cloud-angular   Repository not found.
+20 silly lockFile 96be2abe-t-github-com-ionic-cloud-angular git://github.com/ionic/cloud-angular
+21 silly lockFile 96be2abe-t-github-com-ionic-cloud-angular git://github.com/ionic/cloud-angular
+22 info maybeGithub Attempting ionic/cloud-angular from git+ssh://git@github.com:ionic/cloud-angular
+23 silly lockFile a2ffd39b-t-github-com-ionic-cloud-angular git@github.com:ionic/cloud-angular
+24 verbose lock git@github.com:ionic/cloud-angular C:\Users\neil\AppData\Roaming\npm-cache\a2ffd39b-t-github-com-ionic-cloud-angular.lock
+25 verbose addRemoteGit [ 'git@github.com:ionic/cloud-angular', 'master' ]
+26 error git clone git@github.com:ionic/cloud-angular Cloning into bare repository 'C:\Users\neil\AppData\Roaming\npm-cache\_git-remotes\git-github-com-ionic-cloud-angular-a2ffd39b'...
+26 error git clone git@github.com:ionic/cloud-angular Host key verification failed.
+26 error git clone git@github.com:ionic/cloud-angular fatal: Could not read from remote repository.
+26 error git clone git@github.com:ionic/cloud-angular
+26 error git clone git@github.com:ionic/cloud-angular Please make sure you have the correct access rights
+26 error git clone git@github.com:ionic/cloud-angular and the repository exists.
+27 silly lockFile a2ffd39b-t-github-com-ionic-cloud-angular git@github.com:ionic/cloud-angular
+28 silly lockFile a2ffd39b-t-github-com-ionic-cloud-angular git@github.com:ionic/cloud-angular
+29 silly lockFile 8ff7985a-ionic-cloud-angular ionic/cloud-angular
+30 silly lockFile 8ff7985a-ionic-cloud-angular ionic/cloud-angular
+31 error addLocal Could not install ionic/cloud-angular
+32 error Error: ENOENT: no such file or directory, stat 'F:\_p\weather-taxi\phone-app\ionic\ionic\cloud-angular'
+33 error If you need help, you may report this *entire* log,
+33 error including the npm and node versions, at:
+33 error     <http://github.com/npm/npm/issues>
+34 error System Windows_NT 10.0.14393
+35 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\ProgramData\\chocolatey\\lib\\npm\\tools\\node_modules\\npm\\bin\\npm-cli.js" "install" "@ionic/cloud-angular" "--save"
+36 error cwd F:\_p\weather-taxi\phone-app\ionic
+37 error node -v v7.10.0
+38 error npm -v 1.4.9
+39 error path F:\_p\weather-taxi\phone-app\ionic\ionic\cloud-angular
+40 error syscall stat
+41 error code ENOENT
+42 error errno -4058
+43 verbose exit [ -4058, true ]
